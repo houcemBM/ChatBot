@@ -1,0 +1,92 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "asking wether fine",
+         "patterns": ["how are you ?!"],
+         "responses": ["Im a chatbot , so always fine","fine, but as you know im a chat bot ! "],
+         "context": [""]
+        },
+        {"tag": "Help",
+         "patterns": ["What can you do for me ?", "how does this work ?", "Could you explain to me how does this work ? ", "what should i do ?"],
+         "responses": ["You ask me a question about a symptom and i answer you with its corresponding illness ", "i'm an illness guesser , just inform me aout your symptoms and i'll tell you what sickness it is ", "tell me what do you feel and i'll guess your sickness"],
+         "context": [""]
+        },
+        {"tag": "blood_pressure",
+         "patterns": ["Chest pain", "nosebleed", "Blood pressure data entry", "can not see clearly", "Vision Problem","blood in the urine","pounding in the chest","pounding in the ears"],
+         "responses": ["you might be suffering from Blood Pressure"],
+         "context": [""]
+        },
+       {
+        	"tag":"eating or weight problems",
+        	"patterns":["fat", "sweat", "sweating", "losing weight without trying", "binging, vomiting", "starvation","starve","preoccupation with food and weight", "distorted body image", "compulsive exercise", "abuse of laxatives or diet pills", "depression","body image"],
+        	"responses":["you might be suffering from eating or weight problems"],
+        	"context_set":[""]
+        },
+  	   {
+        	"tag":"emotional problems",
+        	"patterns":["anxiety" , "sad" , "can not concentrate cleary" , "depression","fatigue" , "feeling tense" , "flashbacks and nightmares", "disinterest in regular activities", "suicidal thoughts", "hallucinations", "delusions","crying","Thinking about the past"],
+        	"responses":["you might be suffering from emotional problems"],
+        	"context_set":[""]
+        },
+  	    {
+        	"tag":"allergy",
+        	"patterns":["sneezing"," itchy nose", "runny nose","blocked nose","watering eyes","wheezing","chest tightness", "shortness of breath","breath difficulties","cough","swollen lips"," swollen tongue ", "swollen eyes ","feeling sick","vomiting "," diarrhoea","dry skin"],
+        	"responses":["you might be suffering from allergy"],
+        	"context_set":[""]
+        },
+        {
+        	"tag":"dehydration",
+        	"patterns":["izziness", "light headedness","headache","tiredness","dry mouth", "dry lips","dry eyes","passing small amounts of urine infrequently","thirsty"],
+        	"responses":["you might be suffering from dehydration"],
+        	"context_set":[""]
+
+        },
+  	    {
+        	"tag":"COVID-19",
+        	"patterns":[" i cough continously for 3 days",",muscle aches","countinuous coughing","have had 3 or more episodes of coughing in 24 hours","are coughing more than usual","a new continuous cough"," a fever/high temperature","izziness","head pain","no appetit","laziness","lazy"],
+        	"responses":["You could be having Covid-19","you might be suffering from COVID-19","im afraid you have Covid-19"],
+        	"context_set":[""]
+        },
+        {
+          "tag": "Influenza",
+          "patterns": ["dry cough", "intense pain and fatigue", "spreds", "sneezing","stuffy nose"],
+         "responses": ["Eat well balanced vegetables this is Influenza", "this is Influenza's symptoms , rest and avoid exercises until the symptoms are gone", "its Influenza, a respiratory infections","Drink less Caffeine its Headache","Dont skip meals , its head ache"],
+         "context": [""]
+        },
+        {"tag": "Head aches",
+           "patterns": ["felt on one or both sides of the head", "head", "spreds", "Smoking","smoke"],
+         "responses": ["No worries, its just some Headache, it'll go away", "its head ache,dont make yourself tired", "its headache , maybe the weather is changing again ...","Drink less Caffeine its Headache","Dont skip meals , its head ache"],
+         "context": [""]
+        },
+        {"tag": "GAS",
+         "patterns": ["Straw", "Rapidly", "fast", "Smoking","smoke","Stomach ache"],
+         "responses": ["No worries, its just some GAS, it'll go away", "its Gas, quite smoking if you do", "Eat less Beans , broccoli or onions this is definetely GAS"],
+         "context": [""]
+        },
+        {
+         "tag": "calming human down",
+         "patterns": ["is it dangerous?!", "you made me worry", "will i be fine soon?!", "am i in danger"],
+         "responses": ["No dont worry , stay in bad until you are fine", "not a sign of a dangerous symptom , you will get better ", "you will be fine in no days , just fave faith in god"],
+         "context": [""]
+        },
+         {
+         "tag": "changing topics",
+         "patterns": ["ok!", "that was handy", "nice advice"],
+         "responses": ["thats my job", "Anything else ?", "do you need anything other than this " ],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        }
+]
+}
